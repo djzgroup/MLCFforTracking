@@ -9,9 +9,15 @@ Our main contributions include the following:
 (2) Incorporating region-based tracking strategy into the local correlation filters. Our tracker learns more reliable features from the target area. 
 (3) Using PSR to adaptively update the target to avoid filters being contaminated when the tracker loses the object.
 
+
+### CODE
+The code is developed in the matlab environment.
+```bash
+You can verify the method of this article by executing “run_OUR.m”.
+```
+
+
 Comprehensive experiments were conducted on two large-scale benchmark datasets: OTB-2015 and OTB-2013, and the experimental results demonstrate that the proposed MLCF tracker performs competitively when compared with state-of-the-art methods.
 
-The code is developed in the matlab environment.
-You can verify the method of this article by executing “run_OUR.m”.
 
 This work was supported by the National Natural Science Foundation of China under Grant 61702350 and Grant 61802355.
