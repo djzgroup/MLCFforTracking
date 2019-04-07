@@ -17,7 +17,7 @@ Comparisons of our approach with state-of-the-art trackers in challenging situat
 ![](https://github.com/djzgroup/MLCFforTracking/blob/master/Comparisons.jpg)
 **quantitative**
 We do comprehensive comparison between our approach and the baseline tracker SRDCF. The following figure shows the DP and OP results of MLCF and SRDCF on OTB-2015 respectively, for clarity, we reported 11 attribute-based evaluation results. (Comparison with baseline tracker SRDCF on OTB-2015 benchmark sequences using OP at a threshold of 0.5, DP at a threshold of 20 pixels.)
-![](https://github.com/djzgroup/MLCFforTracking/blob/master/Comparisons.jpg)
+![](https://github.com/djzgroup/MLCFforTracking/blob/master/baseline.jpg)
 
 ## CODE
 The code is developed in the matlab environment.
