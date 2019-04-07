@@ -12,7 +12,11 @@ Correlation filter based trackers have been successfully applied to visual objec
 Comprehensive experiments were conducted on two large-scale benchmark datasets: OTB-2015 and OTB-2013, and the experimental results demonstrate that the proposed MLCF tracker performs competitively when compared with state-of-the-art methods.
 
 ## Comparisons
+**qualitative**
 Comparisons of our approach with state-of-the-art trackers in challenging situations of rotations (#1026 to #1078) and partial occlusions (#321 to #372) on the Lemming sequence [1]. Our tracker takes advantage of a region-based tracking strategy and correlation filters; it performs superiorly when compared with other trackers.
+![](https://github.com/djzgroup/MLCFforTracking/blob/master/Comparisons.jpg)
+**quantitative**
+We do comprehensive comparison between our approach and the baseline tracker SRDCF. The following figure shows the DP and OP results of MLCF and SRDCF on OTB-2015 respectively, for clarity, we reported 11 attribute-based evaluation results. (Comparison with baseline tracker SRDCF on OTB-2015 benchmark sequences using OP at a threshold of 0.5, DP at a threshold of 20 pixels.)
 ![](https://github.com/djzgroup/MLCFforTracking/blob/master/Comparisons.jpg)
 
 ## CODE
