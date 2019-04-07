@@ -11,11 +11,17 @@ Correlation filter based trackers have been successfully applied to visual objec
 
 Comprehensive experiments were conducted on two large-scale benchmark datasets: OTB-2015 and OTB-2013, and the experimental results demonstrate that the proposed MLCF tracker performs competitively when compared with state-of-the-art methods.
 
+## Comparisons
+Comparisons of our approach with state-of-the-art trackers in challenging situations of rotations (#1026 to #1078) and partial occlusions (#321 to #372) on the Lemming sequence [1]. Our tracker takes advantage of a region-based tracking strategy and correlation filters; it performs superiorly when compared with other trackers.
+![](https://github.com/djzgroup/MLCFforTracking/blob/master/Comparisons.jpg)
+
 ## CODE
 The code is developed in the matlab environment.
 ```bash
 You can verify the method of this article by executing “test-ucf24.py”.
 ```
+## References
+- [1] Wu Y, Lim J, Yang M H. Object Tracking Benchmark[J]. IEEE transactions on pattern analysis and machine intelligence, 2015, 37(9): 1834.
 
 ## Acknowledgment
 This work was supported by the National Natural Science Foundation of China under Grant 61702350 and Grant 61802355.
