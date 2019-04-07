@@ -14,7 +14,7 @@ Comprehensive experiments were conducted on two large-scale benchmark datasets: 
 ### CODE
 The code is developed in the matlab environment.
 ```bash
-You can verify the method of this article by executing “run_OUR.m”.
+You can verify the method of this article by executing “test-ucf24.py”.
 ```
 
 **This work was supported by the National Natural Science Foundation of China under Grant 61702350 and Grant 61802355.**
