@@ -23,7 +23,7 @@ We do comprehensive comparison between our approach and the baseline tracker SRD
 ## CODE
 The code is developed in the matlab environment.
 ```bash
-You can verify the method of this article by executing “test-ucf24.py”.
+You can verify the method of this article by executing “run_OUR.m”.
 ```
 ## References
 - [1] Wu Y, Lim J, Yang M H. Object Tracking Benchmark[J]. IEEE transactions on pattern analysis and machine intelligence, 2015, 37(9): 1834.
